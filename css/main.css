@@ -87,7 +87,7 @@ main > p:first-child::first-letter {
   background-color: #666;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
-  padding: .4em .2em;
+  padding: 6px;
   margin: .5rem;
 }
 
@@ -100,9 +100,15 @@ figure {
   margin: 1rem;
 }
 
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
+}
+
 blockquote {
   float: left;
   font-size: 1.5rem;
+  color: #666;
   text-align: right;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
@@ -110,9 +116,6 @@ blockquote {
   margin: 1rem;
 }
 
-blockquote > p {
-
-}
 
 /*
  ##########################################################
