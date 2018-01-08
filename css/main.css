@@ -80,6 +80,40 @@ footer {
   color: #f2f2f2;
 }
 
+main > p:first-child::first-letter {
+  font-size: 5rem;
+  float: left;
+  color: #f2f2f2;
+  background-color: #666;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  padding: .4em .2em;
+  margin: .5rem;
+}
+
+figure {
+  float: right;
+  padding: .4em .2em;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  width: 300px;
+  margin: 1rem;
+}
+
+blockquote {
+  float: left;
+  font-size: 1.5rem;
+  text-align: right;
+  border-top: 3px solid #333;
+  border-bottom: 3px solid #333;
+  width: 300px;
+  margin: 1rem;
+}
+
+blockquote > p {
+
+}
+
 /*
  ##########################################################
  END DO NOT CHANGE ZONE
