@@ -82,13 +82,18 @@ footer {
 
 main > p:first-child::first-letter {
   font-size: 5rem;
+  font-style: normal;
   float: left;
   color: #f2f2f2;
   background-color: #666;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
-  padding: 6px;
-  margin: .5rem;
+  padding-top: .3em;
+  padding-bottom: .345em;
+  padding-left: .2em;
+  padding-right: .2em;
+  margin-right: .1em;
+  margin-left: -.5em;
 }
 
 figure {
@@ -97,7 +102,8 @@ figure {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   width: 300px;
-  margin: 1rem;
+  margin-right: -9em;
+  margin-top: .7em;
 }
 
 figcaption {
@@ -113,9 +119,10 @@ blockquote {
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   width: 300px;
-  margin: 1rem;
+  margin-left: -5em;
+  margin-right: .5em;
+  padding: 6px 0;
 }
-
 
 /*
  ##########################################################
