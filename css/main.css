@@ -98,7 +98,6 @@ main > p:first-child::first-letter {
 
 figure {
   float: right;
-  padding: .4em .2em;
   border-top: 3px solid #333;
   border-bottom: 3px solid #333;
   width: 300px;
@@ -121,7 +120,6 @@ blockquote {
   width: 300px;
   margin-left: -5em;
   margin-right: .5em;
-  padding: 6px 0;
 }
 
 /*
